@@ -10,6 +10,6 @@ var server = http.createServer(app);
 
 app.use(express.static(publicPath));
 
-server.listen(3200, () => {
+server.listen(port, () => {
     console.log(`Server is running on ${port}`);
 });
